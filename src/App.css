@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color:sandybrown ;
+  /* rgb(250, 170, 161) 
+   sandybrown*/
+}
+
+.header{
+  text-align: center;
+  background-color: rgb(167, 83, 11);
+  color: white;
+  padding: 7px;
+  font-family: sans-serif;
+  /* rgb(209, 141, 133) 
+  rgb(255, 210, 170)*/
+}
+
+.form{
+  display: flex;
+}
+
+.text{
+  width: 90%;
+  height: 20px;
+  border-radius: 3px;
+  border: 1px black solid;
+}
+
+.btn{
+  width: 10%;
+  border-radius: 3px;
+  border: 1px black solid;
+}
+
+.box{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
